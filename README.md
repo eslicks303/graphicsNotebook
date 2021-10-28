@@ -77,6 +77,7 @@
 - [ ] Higher visual polish
   - [ ] Advanced skybox to indicate time
     - [ ] Twinkling stars
+    - [ ] Skybox gradients
         <br />
         >*"Twilight" gradient when entering the dungeon*<br />
         *Darker night-like gradient when leaving the dungeon*<br />
