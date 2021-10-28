@@ -38,13 +38,13 @@
     >*The player will have a limited number of distraction interactions they can*<br /> *perform per floor. Trying to cause a distraction too many times will permanently*<br />
     *put all enemies on that floor in the chasing state.*
 - [ ] Local lighting<br />
-  *Enemys may hold lights which will visually represent their range of vision*
+  >*Enemys may hold lights which will visually represent their range of vision*
 
 ***
 ## Stretch Goals (in order of possibility lol)
 - [ ] Level variation
   - [ ] Multiple "Floors"
-    - The option to go down to harder levels for better loot
+    >*The option to go down to harder levels for better loot*
   - [ ] Random generation
     - [ ] Random Arrangment of predetermined maze parts
     ### -OR-
