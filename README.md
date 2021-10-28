@@ -11,7 +11,7 @@ The very baseline goal of this project is to recreate Pac-Man in simple 3D. In P
 
 Replace Pac-Man with a cloaked figure, replace the balck and blue maze with something like a hedge maze or a dungeon. The pellets can be coins and the fruit can be various treasure. I don't plan on making this game exactly as one-to-one like that, but this will at least help you understand what my most basic goal is, to recreate Pac-Man.<br />
 
-Beyond this, I hope to add lots of polish to differentiate my game from Pac-Man. Below is a couple of lists containing general ideas that I wish to accomplish throughout this project. Due to the time constraint, some things that aren't as important will need to be cut from developement, but otherwise I think enough developement will be completed where I feel that I will be able to call this game my own and not just a Pac-Man clone.<br />
+Beyond this, I hope to add lots of polish to differentiate my game from Pac-Man. Down below are a couple of lists containing general ideas that I wish to accomplish throughout this project. Due to the time constraint, some things that aren't as important will need to be cut from developement, but otherwise I think enough developement will be completed where I feel that I will be able to call this game my own and not just a Pac-Man clone.<br />
 <br />
 # Development Timeline
 The project will begin development at the begining of November and will go through to the very begining of Decmeber. This will be about four weeks that I have to get this game working.<br /> 
