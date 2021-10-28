@@ -4,6 +4,24 @@
 <br />
 
 ***
+<br />
+
+# What kind of game is this?
+The very baseline goal of this project is to recreate Pac-Man in simple 3D. In Pac-Man your goal is to navigate the maze-like level, collect pellets, and collect fruit all while avoiding ghosts. In my mind, this set up is perfect for a rogue-like, or a dungeon crawler.<br />
+
+Replace Pac-Man with a cloaked figure, replace the balck and blue maze with something like a hedge maze or a dungeon. The pellets can be coins and the fruit can be various treasure. I don't plan on making this game exactly as one-to-one like that, but this will at least help you understand what my most basic goal is, to recreate Pac-Man.<br />
+
+Beyond this, I hope to add lots of polish to differentiate my game from Pac-Man. Below is a couple of lists containing general ideas that I wish to accomplish throughout this project. Due to the time constraint, some things that aren't as important will need to be cut from developement, but otherwise I think enough developement will be completed where I feel that I will be able to call this game my own and not just a Pac-Man clone.<br />
+<br />
+# Development Timeline
+The project will begin development at the begining of November and will go through to the very begining of Decmeber. This will be about four weeks that I have to get this game working.<br /> 
+
+As stated before, the base goal is to get a functioning game that plays similar to Pac-Man. My hope is that this will only take about a week so that I can focus totally on polishing for the bulk of this project. I don't have any experience using javascript, webgl2, or the graphics library twgl, so it's very possible that getting the foundation of this game running could take as long as two weeks or more.<br />
+
+Worst case scenario, if I'm only able to complete my base goal by the end of the development timeline, I may choose to continue development on my own time. Provided I feel like I would be learning something I could use for the future, or maybe just that I'm having fun developing this idea. Otherwise, if I run out of time here, I might take these ideas and the things I've learned and begin development in an actual game engine, such as Unity.<br />
+<br />
+Anyway, here are my general ideas moving forward:
+***
 ## Main Task List (in order of importance)
 - [ ] Player movement
 - [ ] Collision with walls
