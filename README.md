@@ -1,6 +1,11 @@
 # Graphics Notebook
 ## A repository for testing javascript, webgl2, and twgl ideas
-*Ideas are not final and this list will be tweaked as the project moves forward*
+>*Ideas are not final and this list will be tweaked as the project moves forward*
+
+>*While originally all code for the game was meant to be in this repo, develpement was faster and easier using ObservableHQ. The code can be found here:* <br />
+https://observablehq.com/d/bc154ee880f39e61
+
+>*The code in this repo will be for the html canvas viewport; the viewport from the notebook will be embedded to fill the entire page for a nice, unobstructed appearance.*
 <br />
 
 ***
