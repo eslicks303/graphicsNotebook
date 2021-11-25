@@ -9,17 +9,15 @@
         <link rel="stylesheet" type="text/css" href="base.css">
     </head>
     <body>
-        <script src="./resources/js/main.js" type="module">
-        </script>
         <div id="observablehq-name-2f0d39b5"></div>
-<p>Credit: <a href="https://observablehq.com/d/629a068cffe70715">Experimenting with stuff by Samuel Eslick</a></p>
+        <p><a href="https://observablehq.com/d/629a068cffe70715">Code Link</a></p>
 
-<script type="module">
-import {Runtime, Inspector} from "https://cdn.jsdelivr.net/npm/@observablehq/runtime@4/dist/runtime.js";
-import define from "https://api.observablehq.com/d/629a068cffe70715.js?v=3";
-new Runtime().module(define, name => {
-  if (name === "name") return new Inspector(document.querySelector("#observablehq-name-2f0d39b5"));
-});
-</script>
+        <script type="module">
+            import {Runtime, Inspector} from "https://cdn.jsdelivr.net/npm/@observablehq/runtime@4/dist/runtime.js";
+            import define from "https://api.observablehq.com/d/629a068cffe70715.js?v=3";
+            new Runtime().module(define, name => {
+                if (name === "name") return new Inspector(document.querySelector("#observablehq-name-2f0d39b5"));
+            });
+        </script>
     </body>
 </html>
