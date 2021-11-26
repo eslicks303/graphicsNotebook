@@ -9,15 +9,22 @@
         <link rel="stylesheet" type="text/css" href="base.css">
     </head>
     <body>
-        <div id="observablehq-name-2f0d39b5"></div>
-        <p><a href="https://observablehq.com/d/629a068cffe70715">Code Link</a></p>
+        <div id="observablehq-viewport-630aac9a"></div>
+        <div id="observablehq-viewof-cam-630aac9a"></div>
+        <div id="observablehq-viewof-cameraAngles-630aac9a"></div>
+        <div id="observablehq-viewof-mazeIndex-630aac9a"></div>
+        <p>Credit: <a href="https://observablehq.com/d/8b96cd70efb1e5a7">Collision Testing by Samuel Eslick</a></p>
 
         <script type="module">
-            import {Runtime, Inspector} from "https://cdn.jsdelivr.net/npm/@observablehq/runtime@4/dist/runtime.js";
-            import define from "https://api.observablehq.com/d/629a068cffe70715.js?v=3";
-            new Runtime().module(define, name => {
-                if (name === "name") return new Inspector(document.querySelector("#observablehq-name-2f0d39b5"));
-            });
+        import {Runtime, Inspector} from "https://cdn.jsdelivr.net/npm/@observablehq/runtime@4/dist/runtime.js";
+        import define from "https://api.observablehq.com/d/8b96cd70efb1e5a7.js?v=3";
+        new Runtime().module(define, name => {
+            if (name === "viewport") return new Inspector(document.querySelector("#observablehq-viewport-630aac9a"));
+            if (name === "viewof cam") return new Inspector(document.querySelector("#observablehq-viewof-cam-630aac9a"));
+            if (name === "viewof cameraAngles") return new Inspector(document.querySelector("#observablehq-viewof-cameraAngles-630aac9a"));
+            if (name === "viewof mazeIndex") return new Inspector(document.querySelector("#observablehq-viewof-mazeIndex-630aac9a"));
+            return ["center","cameraLookAt","getViewMatrix","renderCamera","viewMatrix","renderGround","renderGroundDebug","getCameraTransformationMatrix","tileColor"].includes(name);
+        });
         </script>
     </body>
 </html>
