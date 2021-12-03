@@ -28,10 +28,10 @@ Worst case scenario, if I'm only able to complete my base goal by the end of the
 Anyway, here are my general ideas moving forward:
 ***
 ## Main Task List (in order of importance)
-- [ ] Player movement
-- [ ] Collision with walls
+- [x] Player movement
+- [x] Collision with walls
 - [ ] Enemy behavior
-  - [ ] Movement
+  - [x] Movement
   - [ ] Vision<br />
     >*A circular area with the enemy at its center.*<br />
   *When entered by the player it will cause the enemy to enter the chasing state*
@@ -39,7 +39,7 @@ Anyway, here are my general ideas moving forward:
   - [ ] States
     - [ ] Guarding<br />
         >*Enemies in this state will wander the maze without knowing where the player is*
-    - [ ] Chasing<br />
+    - [x] Chasing<br />
         >*Enemies in this state know where the player is and will try to catch them.*<br />
         *If the player is able to stay out of sight for long enough, then the enemy will*<br />
         *return to the guarding state. If the player alerts the enemies too many times,*<br /> 
@@ -48,15 +48,15 @@ Anyway, here are my general ideas moving forward:
         >*This state is reserved for the enemy guarding the entrance to the dungeon.*<br />
         *If an enemy in the guarding state enters the vision of a sleeping enemy,*<br />
         *That enemy will wake up for a short amount of time*
-  - [ ] Collision with player
+  - [x] Collision with player
 - [ ] Item behavior
   - [ ] Picking up items
   - [ ] Variation of items
-    - [ ] Different score values
+    - [x] Different score values
     - [ ] Different materials
     - [ ] Different size value
 - [ ] Basic inventory function (size limit for items held)
-- [ ] Simple score calculation
+- [x] Simple score calculation
 - [ ] Simple distraction system
     >*The player will have a limited number of distraction interactions they can*<br /> *perform per floor. Trying to cause a distraction too many times will permanently*<br />
     *put all enemies on that floor in the chasing state.*
