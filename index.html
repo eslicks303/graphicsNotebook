@@ -11,35 +11,31 @@
     <body>
         <div style="cursor: url('./images/cursor-01.svg'), url('./images/cursor-01.cur'), move;">
 
-<div id="observablehq-viewof-topText-e4746570"></div>
-<div id="observablehq-viewport-e4746570"></div>
-<div id="observablehq-viewof-newgame-e4746570"></div>
-<div id="observablehq-lives-e4746570"></div>
-<div id="observablehq-direction-e4746570"></div>
-<div id="observablehq-move-e4746570"></div>
-<div id="observablehq-moveEnemy-e4746570"></div>
-<div id="observablehq-moveEnemy2-e4746570"></div>
-<div id="observablehq-wheelmove-e4746570"></div>
-<div id="observablehq-style-e4746570"></div>
+        <div id="observablehq-viewof-topText-79dfb156"></div>
+        <div id="observablehq-viewport-79dfb156"></div>
+        <div id="observablehq-viewof-newgame-79dfb156"></div>
+        <div id="observablehq-viewof-choice-79dfb156"></div>
+        <div id="observablehq-mes-79dfb156"></div>
+        <div id="observablehq-mes2-79dfb156"></div>
+        <div id="observablehq-wheelmove-79dfb156"></div>
+        <div id="observablehq-style-79dfb156"></div>
+        <p>Credit: <a href="https://observablehq.com/d/db343ccfd2a10c81">Final Project: Computer Graphics 2021 by Samuel Eslick</a></p>
 
-<script type="module">
-import {Runtime, Inspector} from "https://cdn.jsdelivr.net/npm/@observablehq/runtime@4/dist/runtime.js";
-import define from "https://api.observablehq.com/d/db343ccfd2a10c81.js?v=3";
-new Runtime().module(define, name => {
-  if (name === "viewof topText") return new Inspector(document.querySelector("#observablehq-viewof-topText-e4746570"));
-  if (name === "viewport") return new Inspector(document.querySelector("#observablehq-viewport-e4746570"));
-if (name === "viewof newgame") return new Inspector(document.querySelector("#observablehq-viewof-newgame-e4746570"));
-  if (name === "lives") return new Inspector(document.querySelector("#observablehq-lives-e4746570"));
-  if (name === "direction") return new Inspector(document.querySelector("#observablehq-direction-e4746570"));
-  if (name === "move") return new Inspector(document.querySelector("#observablehq-move-e4746570"));
-  if (name === "moveEnemy") return new Inspector(document.querySelector("#observablehq-moveEnemy-e4746570"));
-  if (name === "moveEnemy2") return new Inspector(document.querySelector("#observablehq-moveEnemy2-e4746570"));
-  if (name === "wheelmove") return new Inspector(document.querySelector("#observablehq-wheelmove-e4746570"));
-  if (name === "style") return new Inspector(document.querySelector("#observablehq-style-e4746570"));
-
-  return ["player","start","die","scoreTest","renderPlayerDebug","draw","score","highscore","enemyPosition","enemy","renderEnemyDebug","enemy2Position","enemy2","renderEnemy2Debug","gameover"].includes(name);
-});
-</script> 
+        <script type="module">
+            import {Runtime, Inspector} from "https://cdn.jsdelivr.net/npm/@observablehq/runtime@4/dist/runtime.js";
+            import define from "https://api.observablehq.com/d/db343ccfd2a10c81.js?v=3";
+            new Runtime().module(define, name => {
+                if (name === "viewof topText") return new Inspector(document.querySelector("#observablehq-viewof-topText-79dfb156"));
+                if (name === "viewport") return new Inspector(document.querySelector("#observablehq-viewport-79dfb156"));
+                if (name === "viewof newgame") return new Inspector(document.querySelector("#observablehq-viewof-newgame-79dfb156"));
+                if (name === "viewof choice") return new Inspector(document.querySelector("#observablehq-viewof-choice-79dfb156"));
+                if (name === "mes") return new Inspector(document.querySelector("#observablehq-mes-79dfb156"));
+                if (name === "mes2") return new Inspector(document.querySelector("#observablehq-mes2-79dfb156"));
+                if (name === "wheelmove") return new Inspector(document.querySelector("#observablehq-wheelmove-79dfb156"));
+                if (name === "style") return new Inspector(document.querySelector("#observablehq-style-79dfb156"));
+                return ["score","win","move","moveEnemy","moveEnemy2","die","highscore","player","start","direction","scoreTest","renderPlayer","draw","lives","tRot","renderTreasure","playerPosition","enemyPosition","enemy","renderEnemy","enemy2Position","enemy2","renderEnemy2","gameover","count","tickThing","mazeArray","tileColor","renderScene","renderWalls"].includes(name);
+            });
+        </script>
 
 
         </div>

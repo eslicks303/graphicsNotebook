@@ -3,7 +3,8 @@
 >*Ideas are not final and this list will be tweaked as the project moves forward*
 
 >*While originally all code for the game was meant to be in this repo, development was faster and easier using ObservableHQ. The code can be found here:* <br />
-https://observablehq.com/d/bc154ee880f39e61
+https://observablehq.com/d/db343ccfd2a10c81
+
 
 >*The code in this repo will be for the html canvas viewport; the viewport from the notebook will be embedded to fill the entire page for a nice, unobstructed appearance.*
 <br />
